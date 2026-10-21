@@ -1,0 +1,27 @@
+# Virtual environments and secrets
+venv/
+.venv/
+app/.venv/
+.env
+*.pem
+
+# QEMU and hypervisor disk images
+*.qcow2
+*.img
+*.vmdk
+*.vdi
+
+# Temporary k6 logs (result JSON stays)
+*.k6.log
+load-tests/**/*.log
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+paper/*.bbl
+paper/*.blg
